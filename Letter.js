@@ -1,10 +1,10 @@
 
 //Create Letter constructor that stores the letter for a word being guessed
-function Letter(letter) {
+function letter(letter) {
     this.letter = letter;
     this.guess = false;
 
-    //method checks the guessed property and returns eith and _ ot letter based on the "guessed" value
+    //method checks the guessed property and returns either an _ or letter based on the "guessed" value
     this.displayletter = function(){
         if(this.guessed){
             return this.letter + " ";
